@@ -13,7 +13,7 @@ const App = () => {
 
   const [theme, setTheme] = useState('light')
   return (
-    <div>
+    <div className='dark:bg-black'>
       <Toaster/>
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero/>
